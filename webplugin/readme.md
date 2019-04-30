@@ -39,7 +39,7 @@ Make the call to the JavaScript (note that all files - mailtemplate and attachme
 <pre>
 GenerateEmailWithAttachments(mailTemplateName, contactId, personId, projectId, saleId, attachmentFileNames)
 </pre>
-for example (set the ids on 0 if they are not applicable):
+for example (set the ids on 0 if they are not applicable, attachmentFileNames can also be an empty string if no attachments should be added):
 <pre>
 GenerateEmailWithAttachments('test1.somail', 1, 2, 0, 0, 'attachment1.pdf,attachment2.pdf,attachment3.pdf')
 </pre>
