@@ -38,8 +38,8 @@ https://community.superoffice.com/documentation/SDK/SO.Web.Application/html/Cust
 
 4) Add button or menuitem in SOWeb
 
-Add a button/menuitem from where the action (generating the email) should be fired.
-For example take a look in the file \App_Data\WebClient\Web\Menu\SoMenuConfiguration.config
+Add a button/menuitem from where the action (generating the email) should be fired.<br>
+For example take a look in the file \App_Data\WebClient\Web\Menu\SoMenuConfiguration.config<br>
 In the button/menuitem definition make the call to the JavaScript (note that all files - mailtemplate and attachments - should be in the \so_arc\template\ folder on the server):
 <pre>
 &lt;url&gt;javascript:GenerateEmailWithAttachments(mailTemplateName, contactId, personId, projectId, saleId, attachmentFileNames);&lt;/url&gt;
