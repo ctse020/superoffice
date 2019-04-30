@@ -2,9 +2,11 @@ Web Plugin for generating an email with attachment(s)
 
 Installation:
 
-1) Register assembly
+1) Go to the installationfolder of SoWeb (C:\Program Files\SuperOffice\SOWeb8\)
 
-- Copy file "Ctse.SO.AjaxTest.dll" to bin-folder
+2) Register assembly
+
+- Copy file "Ctse.SO.AjaxTest.dll" to the subfolder \bin\
 - In file "web.config" add the assembly to the section: 
 
 <pre>
@@ -16,9 +18,9 @@ Installation:
     &lt;/Factory&gt;
 </pre>
 
-2) Add JavaScript
+3) Add JavaScript
 
-- In folder \JavaScripts\ create subfolder "Ctse" and place file "ctse.so.ajaxtest.js"
+- Go to subfolder \JavaScripts\ and create subfolder "Ctse" and place file "ctse.so.ajaxtest.js"
 - In file "\App_Data\WebClient\Web\SystemFiles\SoApplicationConfiguration.config" add the script to the section:
 
 <pre>
@@ -28,6 +30,6 @@ Installation:
   &lt;/jsincludes&gt;
 </pre>
 
-3) Add button in webapplication
+4) Add button in webapplication
 ...
   
