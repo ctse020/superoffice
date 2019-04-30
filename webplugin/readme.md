@@ -1,6 +1,6 @@
-Web Plugin for generating an email with attachment(s)
+SOWeb Plugin for generating an email (eml-file) with attachment(s)
 
-Installation:
+Installation in SOWeb:
 
 1) Go to the installationfolder of SoWeb (C:\Program Files\SuperOffice\SOWeb8\)
 
