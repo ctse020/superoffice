@@ -31,7 +31,7 @@ Installation in SOWeb:
   &lt;/jsincludes&gt;
 </pre>
 
-4) Add button in webapplication
+4) Add button or menuitem in SOWeb
 
 <pre>
 ...
