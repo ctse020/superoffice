@@ -15,7 +15,7 @@ Installation plugin in SOWeb:
     &lt;Factory&gt;
       &lt;DynamicLoad&gt;
         ....
-	      &lt;add key=&quot;Ctse&quot; value=&quot;Ctse.SO.AjaxTest.dll&quot; /&gt;
+	&lt;add key=&quot;Ctse&quot; value=&quot;Ctse.SO.AjaxTest.dll&quot; /&gt;
       &lt;/DynamicLoad&gt;
     &lt;/Factory&gt;
 </pre>
