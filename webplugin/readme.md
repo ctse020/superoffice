@@ -22,10 +22,10 @@ Installation:
 - In file "\App_Data\WebClient\Web\SystemFiles\SoApplicationConfiguration.config" add the script to the section:
 
 <pre>
-  &lt;jsincludes&gt;<br>
-    ...<br>
-    &lt;jsinclude path=&quot;~/JavaScripts/Ctse/ctse.so.ajaxtest.js&quot; /&gt;<br>
-  &lt;/jsincludes&gt;<br>
+  &lt;jsincludes&gt;
+    ...
+    &lt;jsinclude path=&quot;~/JavaScripts/Ctse/ctse.so.ajaxtest.js&quot; /&gt;
+  &lt;/jsincludes&gt;
 </pre>
 
 3) Add button in webapplication
