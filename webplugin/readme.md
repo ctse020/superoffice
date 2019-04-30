@@ -21,7 +21,8 @@ Installation:
 3) Add JavaScript
 
 - Go to subfolder \JavaScripts\ and create subfolder "Ctse" and place file "ctse.so.ajaxtest.js"
-- In file "\App_Data\WebClient\Web\SystemFiles\SoApplicationConfiguration.config" add the script to the section:
+- Go to subfolder \App_Data\WebClient\Web\SystemFiles\ and open the file SoApplicationConfiguration.config" 
+- add the script to the section:
 
 <pre>
   &lt;jsincludes&gt;
@@ -31,5 +32,9 @@ Installation:
 </pre>
 
 4) Add button in webapplication
+
+<pre>
 ...
-  
+</pre>
+
+5) Restart the IIS
