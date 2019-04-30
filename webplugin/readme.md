@@ -1,11 +1,11 @@
-##SOWeb Plugin for generating an email (eml-file) with attachment(s)
+## SOWeb Plugin for generating an email (eml-file) with attachment(s)
 
 Note: the project uses an external library (Lumisoft.Net), ILMerge will merge this library with the project library when building the project in Visual Studio.
 
 See also:
 https://community.superoffice.com/documentation/SDK/SO.Web.Application/html/CustomAjaxMethods.htm
 
-####Installation plugin in SOWeb:
+#### Installation plugin in SOWeb:
 
 1) Go to the installationfolder of SoWeb (C:\Program Files\SuperOffice\SOWeb8\)
 
