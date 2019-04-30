@@ -35,7 +35,7 @@ Installation plugin in SOWeb:
 
 4) Add button or menuitem in SOWeb
 
-Make the call to the JavaScript (note that all files should be in the \so_arc\template\ folder on the server):
+Make the call to the JavaScript (note that all files - mailtemplate and attachments - should be in the \so_arc\template\ folder on the server):
 <pre>
 GenerateEmailWithAttachments('test1.somail', 1, 2, 0, 0, 'attachment1.pdf,attachment2.pdf,attachment3.pdf')
 </pre>
