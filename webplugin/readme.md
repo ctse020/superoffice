@@ -9,10 +9,10 @@ https://community.superoffice.com/documentation/SDK/SO.Web.Application/html/Cust
 
 1) Go to the installationfolder of SoWeb (C:\Program Files\SuperOffice\SOWeb8\)
 
-2) Register assembly
+2) Register assembly:
 
 - Copy file "Ctse.SO.AjaxTest.dll" to the subfolder \bin\
-- In file "web.config" add the assembly to the section: 
+- Open the file "web.config", change:
 
 <pre>
     &lt;Factory&gt;
@@ -23,11 +23,11 @@ https://community.superoffice.com/documentation/SDK/SO.Web.Application/html/Cust
     &lt;/Factory&gt;
 </pre>
 
-3) Add JavaScript
+3) Add JavaScript:
 
 - Go to subfolder \JavaScripts\ and create subfolder "Ctse" and place file "ctse.so.ajaxtest.js"
 - Go to subfolder \App_Data\WebClient\Web\SystemFiles\ and open the file SoApplicationConfiguration.config" 
-- add the script to the section:
+- Change:
 
 <pre>
   &lt;jsincludes&gt;
