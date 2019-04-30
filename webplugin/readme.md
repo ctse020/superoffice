@@ -46,3 +46,5 @@ GenerateEmailWithAttachments('test1.somail', 1, 2, 0, 0, 'attachment1.pdf,attach
 
 5) Restart the IIS
 
+See also:
+https://community.superoffice.com/documentation/SDK/SO.Web.Application/html/CustomAjaxMethods.htm
