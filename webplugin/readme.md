@@ -37,6 +37,10 @@ Installation plugin in SOWeb:
 
 Make the call to the JavaScript (note that all files - mailtemplate and attachments - should be in the \so_arc\template\ folder on the server):
 <pre>
+GenerateEmailWithAttachments(mailTemplateName, contactId, personId, projectId, saleId, attachmentFileNames)
+</pre>
+for example (set the ids on 0 if they are not applicable):
+<pre>
 GenerateEmailWithAttachments('test1.somail', 1, 2, 0, 0, 'attachment1.pdf,attachment2.pdf,attachment3.pdf')
 </pre>
 
